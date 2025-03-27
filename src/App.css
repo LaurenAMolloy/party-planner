@@ -1,0 +1,145 @@
+:root {
+  --lavender-pink: #ffa9e7ff;
+  --violet-web-color: #ff84e8ff;
+  --french-violet: #7f2ccbff;
+  --delft-blue: #414361ff;
+  --space-cadet: #2a2d43ff;
+  --palest-pink: #ffecf2;
+  --palest-grey: #f9f9f9;
+  --bilberry: #8F61DB;
+  --background: #EFDCCE;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--lavender-pink);
+  font-family: "Poppins", sans-serif;
+  color: var(--space-cadet);
+  accent-color: var(--bilberry);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.guest-list-container {
+  background-color: ghostwhite;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  box-shadow: 10px 5px 5px var(--violet-web-color);
+  min-width: 150px;
+  max-width: 450px;
+}
+
+#guest-list-form {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.guest-input {
+  font-family: "Poppins", sans-serif;
+  padding: .5rem 1rem;
+  width: 100%;
+}
+
+.radioContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  padding-left: .5rem;
+}
+
+.adult-child {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.submit-btn,
+.sort-btn,
+.reset-btn {
+  font-family: "Poppins", sans-serif;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.list-container {
+  background-color: var(--bilberry);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+
+.adult-list-container,
+.child-list-container {
+  background-color: var(--palest-pink);
+  text-align: center;
+  padding: .5rem;
+  border-radius: 1rem;
+  width: 45%;
+}
+
+.child-list,
+.adult-list {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.deleteBtn {
+  background-color: var(--delft-blue);
+  color: var(--palest-grey);
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%
+}
+
+.deleteBtn {
+  &:hover {
+    box-shadow: 0px 0 0 0 #1f1f1f, 0px 0 0 2px var(--violet-web-color);
+  }
+
+  &:active {
+    box-shadow: 0px 0 0 2px #FFF, 0px 0 0 2px var(--violet-web-color);
+  }
+}
