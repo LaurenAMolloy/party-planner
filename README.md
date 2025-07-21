@@ -1,10 +1,17 @@
-# Party Planning App
-![Party Planning]()
+# Party Planning App - A twist on the classic todo app
+![Party Planning](party-planning.png)
 
 
 <h2 align="center">Web application to create a guest lists and assist with party planning.</h2> 
 
-[Live Site](https://react-weather-app-nled.onrender.com)
+[Live Site](https://party-planner-dh6c.onrender.com/)
+
+## 🚀 Features
+- Adding Guests
+- Deleting Guests
+- Sorting Guests
+- Clearing form
+<br/>
 
 
 ## Getting Started
@@ -19,13 +26,13 @@ This project was built using React v 19 It is a web application and for running 
 ### Setup
 
 
-The project repository can be found in [GitHub link]() or just clone the project using this command. 
+The project repository can be found in [GitHub link](https://github.com/LaurenAMolloy/party-planner) or just clone the project using this command. 
 
 
 ```
 Using HTTPS
 
-# git clone  https://github.com/LaurenAMolloy/.git
+# git clone  https://github.com/LaurenAMolloy/party-planner.git
 ```
 
 + Open terminal on your workspace with
