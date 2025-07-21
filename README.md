@@ -1,5 +1,5 @@
 # Party Planning App - A twist on the classic todo app
-![Party Planning](party-planning.png)
+![Party Planning](party-planning1.png)
 
 
 <h2 align="center">Web application to create a guest lists and assist with party planning.</h2> 
