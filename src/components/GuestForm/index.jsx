@@ -11,7 +11,7 @@ export default function GuestForm({Guests, setGuests}) {
         const guestType = formData.get("guest-type");
         //console.log(guestName, guestType);
 
-        if(!guestName || guestType) {
+        if(!guestName || !guestType) {
             alert("Please enter a guest name and type")
             return
         }
