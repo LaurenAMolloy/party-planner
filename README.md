@@ -1,18 +1,11 @@
 # Party Planning App
-![weather app cover]()
-![weather app cover]()
+![Party Planning]()
+
 
 <h2 align="center">Web application to create a guest lists and assist with party planning.</h2> 
 
 [Live Site](https://react-weather-app-nled.onrender.com)
 
-## 🚀 Features
-- Saving the weather data in context
-- Search weather details according to the city
-- Current forecast and next 24 hours available
-- Responsive for every screen size.
-- dark mode toggle
-<br/>
 
 ## Getting Started
 
