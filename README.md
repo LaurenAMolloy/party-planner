@@ -1,4 +1,4 @@
-# React-Weather-App
+# Party Planning App
 ![weather app cover]()
 ![weather app cover]()
 
